@@ -1,0 +1,82 @@
+/* css/estilos.css */
+
+body {
+    background-color: #fdfbf7;
+    font-family: 'Lato', sans-serif;
+    color: #2c3e50;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+/* Encabezado */
+.bg-academic {
+    background: linear-gradient(135deg, #1a252f 0%, #2c3e50 100%);
+    border-bottom: 5px solid #c0392b; /* Rojo vino */
+}
+
+/* Tarjetas */
+.card {
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+    border-color: #c0392b;
+}
+
+/* Contenedor de imagen para centrar */
+.img-container {
+    height: 250px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+}
+
+.card-img-top {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* Mantiene la proporción */
+    width: auto; 
+}
+
+/* Textos */
+.card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #1a252f;
+    min-height: 3rem; /* Alinea los títulos */
+}
+
+.precio {
+    color: #c0392b;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+/* Botón */
+.btn-details {
+    background-color: transparent;
+    border: 2px solid #1a252f;
+    color: #1a252f;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.btn-details:hover {
+    background-color: #1a252f;
+    color: #fff;
+}
